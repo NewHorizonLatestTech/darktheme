@@ -1,0 +1,85 @@
+:root{
+    --primary-color:rgb(8, 8, 187) ;
+    --secondary-color:rgb(20, 189, 48) ;
+   
+}
+.strong{ background-color: blueviolet;
+color: aquamarine;    
+} 
+
+.foo[style*="color: red"] {
+    color: firebrick !important;
+  }
+  
+#moon{
+      
+    height: 30px;
+    cursor: pointer;
+}
+
+Website light and dark theme
+
+Style.css
+*{
+    margin: 0;
+    padding: 0;
+}
+#icon{
+    
+    height: 30px;
+    width: 50px;
+    left: 49%;
+    top: 31.8%;
+    position: absolute;
+    
+}
+
+.mama{
+    
+    font: bold;
+    font-feature-settings: "blwf";
+    text-align: center;
+}
+
+.hero{
+
+    height: 80vh;
+    width: 100%;
+    background:var(--secondary-color);
+    font-family: sans-serif;
+    position: top;
+}
+nav ul{
+flex: 1;
+text-align: center;
+
+}
+:root{
+    --primary-color:rgb(8, 8, 187) ;
+    --secondary-color:rgb(20, 189, 48) ;}
+   
+ 
+
+.dark-theme{
+    --primary-color:rgb(230, 24, 24) ;
+    --secondary-color:rgb(207, 226, 120) ;
+
+}
+
+.strong{ background-color:var(--primary-color); 
+    height: 40vh;
+    width: 100%;    
+    font-family: sans-serif;
+    position: top;
+    
+} 
+
+.foo[style*="color: red"] {
+    color: firebrick !important;
+  }
+  
+
+  /* blueviolet */
+  /* --primary-color:rgb(230, 24, 24) ;
+  --secondary-color:rgb(207, 226, 120) ;
+ */
